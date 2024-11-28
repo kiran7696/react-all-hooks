@@ -36,6 +36,11 @@ const Navbar = () => {
                 useReducer
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to='/use-useref'>
+                useRef
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>
