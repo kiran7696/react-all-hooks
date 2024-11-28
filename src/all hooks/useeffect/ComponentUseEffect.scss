@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  .card {
+    display: inline-block !important;
+    margin-right: 10px !important;
+  }
+}
