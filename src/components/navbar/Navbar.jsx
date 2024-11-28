@@ -31,6 +31,11 @@ const Navbar = () => {
                 useCallBack
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to='/use-usereducer'>
+                useReducer
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>
