@@ -41,6 +41,16 @@ const Navbar = () => {
                 useRef
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to='/use-customhook'>
+                customHook
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to='/hoc'>
+                HOC
+              </NavLink>
+            </li>
           </ul>
         </div>
       </nav>
